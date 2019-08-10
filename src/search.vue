@@ -39,44 +39,43 @@ export default {
 }
 </script>
 
-<style lang="less">
-.searchCom{
-    text-align: center;
-    .searchData{
-    text-align: left;
-    margin: 10px 1%;
-    background-color:;
-    width: 98%;
-    height: 40px;
-    .searchs{
-        background: WhiteSmoke;
-        background-image: url(../assets/images/search.png);
-        background-position: 2px 2px;
-        background-repeat: no-repeat;
-        background-size: 28px;
-        padding-left: 32px;
-        margin: 4px 3%;
-        width: 94%;
-        height: 32px;
-        border-radius: 3px;
-        font-size: 14px;
-        color: black;
-    }
-    .cancelImg{
-        display: inline-block;
-        width: 28px;
-        height: 28px;
-        background-size: 14px;
-        background-repeat: no-repeat;
-        position: absolute;
-        right: 3%;
-        top: 3.3%;
-        z-index: 2;
-        background-image: url(../assets/images/pica-delete.png);
-        
-    }
-  }    
+<style>
+.searchCom .searchData{
+ text-align: left;
+ margin: 10px 1%;
+ width: 98%;
+ height: 40px;
+ overflow: hidden;
 }
+.searchCom .searchData .searchs{
+  background: WhiteSmoke;
+  background-image: url(https://www.easyicon.net/api/resizeApi.php?id=1183666&size=128);
+  background-position: 6px 9px;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  padding-left: 7%;
+  margin: 4px 2%;
+  width: 89%;
+  height: 32px;
+  border-radius: 3%;
+  font-size: 14px;
+  color: black;
+  border: none;
+}
+.searchCom .searchData .searchs:focus{outline:none}
 
+.searchCom .searchData .cancelImg{
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 5%;
+  top: 2.3%;
+  z-index: 20;
+  background-image: url(https://www.easyicon.net/api/resizeApi.php?id=1182472&size=128);
+  background-position: 6px 10px;
+  background-repeat: no-repeat;
+  background-size: 14px;
+}
 </style>
     
